@@ -1,0 +1,88 @@
+
+
+#header{
+    height: 30%;
+    background-color:#808080;
+    background-image: url("./src/pro.jpg");
+    padding-top: 15px;
+    padding-right: 3px;
+    padding-bottom: 45px;
+    padding-left: 60px;
+   
+    }
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*my link is given inside span section inside nav section,so i need to style span only*/
+
+nav a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    margin-left:  80px;
+    margin-right: 30px;
+  }
+  
+  nav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;}
+    #javed
+        {margin-left: 25%;
+            
+        }
+    }
+
+h2{
+    text-transform: uppercase;
+    color:#00ff00;
+}
+body{
+    
+    
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+.sidenav {
+    height: 70%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 190px;
+    left: 16px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+.sidenav img{
+    
+    padding:6px 8px 6px 16px
+    border: 1px solid #ddd;
+  border-radius: 4px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.main{
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px
+}
